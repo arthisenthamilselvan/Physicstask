@@ -8,7 +8,7 @@ public class Dir : MonoBehaviour
     void Update()
     {
         //transform.Rotate(transform.position);
-        //transform.Rotate(transform.position *Time.deltaTime);
+        transform.Rotate(transform.position *Time.deltaTime);
        
     }
 }
